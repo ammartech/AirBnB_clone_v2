@@ -8,11 +8,7 @@
 
 ## Description :house:
 
-HolbertonBnB is a complete RESTful web application, integrating file and
-database (MySQL) storage in a back-end API with front-end interfacing in a
-clone of AirBnB. The front-end is designed using HTML5/CSS3 and is served using
-Python Flask. The application is configured on a distributed system - two web
-servers and one load balancer - with Nginx and HAProxy.
+HolbertonBnB is a comprehensive RESTful web application that combines file and database (MySQL) storage within a back-end API. It features a front-end interface that resembles AirBnB's functionality. The front-end is built using HTML5/CSS3 and is served using Python Flask. The application is deployed on a distributed system consisting of two web servers and one load balancer. Nginx and HAProxy are used for configuration and load balancing purposes.
 
 HolbertonBnB is still in active development, with complete functionality set to
 deploy in the coming month:
@@ -30,39 +26,19 @@ deploy in the coming month:
 
 ## NOTE TO 2019 LYFT SOFTWARE ENGINEERING APPRENTICESHIP RECRUITER
 
-This web app has been the capstone project of my full-stack education at
-Holberton School and I want to show it off as a demonstration of all the
-skills I've learned at this school.
+This web app has been my capstone project during my full-stack education at Holberton School, and it serves as a demonstration of the skills I've acquired throughout my time there.
 
-With that said, I must clarify that it is not complete. As mentioned, the
-clone is a work-in-progress, with full deployment as a RESTful API still to
-come. Finishing touches will be occurring over the next month, my final at
-Holberton.
+Although the project is not yet complete, I have made significant progress and plan to finish the remaining tasks over the next month, as part of my final assignment at Holberton.
 
-Recognizing that I am sharing a near-complete project, I additionally put
-together a small Flask app according to the specifications described in the
-application. Please take a look at this separate repository here:
+To showcase my work, I have created a separate Flask app based on the project's specifications. You can find the code for this app in the following repository: [https://github.com/bdbaraban/lyft_apprenticeship_application](https://github.com/bdbaraban/lyft_apprenticeship_application).
 
-https://github.com/bdbaraban/lyft_apprenticeship_application
+This repository represents the second iteration of the project. Initially, I collaborated with a cohort mate to build the file storage back-end and console from scratch. We extensively pair programmed during the development of the first version, which you can view here: [https://github.com/bdbaraban/AirBnB_clone](https://github.com/bdbaraban/AirBnB_clone).
 
-Nonetheless, allow me to talk a little more about this AirBnB clone. This
-repository is the second iteration of the project. In the first version
-(viewable [here](https://github.com/bdbaraban/AirBnB_clone)), I, together
-with a cohort mate, built up the initial file storage back-end and
-console from scratch. We pair programmed for most all of this version one work.
+For the second iteration, I teamed up with a new partner who had worked on a different version of the back-end, previously developed by a pair of students from an older cohort at Holberton. Together, we implemented the database storage engine of the back-end through pair programming sessions.
 
-In this second iteration of the project, I, together with a new partner,
-inherited a different version of the same back-end written by a pair of
-Holberton students from an older cohort. We then pair programmed
-to build up the database storage engine of the back-end.
+During the transition between versions, I independently created a fully CSS-styled HTML web page for the project. Please note that the HTML files I personally wrote are only available in the first version's repository: [https://github.com/bdbaraban/AirBnB_clone](https://github.com/bdbaraban/AirBnB_clone). However, the `web_static` folder in this current repository includes the necessary files and was included in the fork. Additionally, I have developed all the deployment scripts/manifests using Shell, Puppet, and Fabric.
 
-In between each version, I put together an entire CSS-styled HTML web page
-for the project. This front-end development was coded independently, although
-the HTML files I personally wrote are only posted in
-[version one](https://github.com/bdbaraban/AirBnB_clone) (the
-[web_static](./web_static) folder in this directory was included in the
-fork). Addtionally, all Shell, Puppet, and Fabric deployment scripts/manifests
-were coded myself.
+I'm excited to share my progress on this AirBnB clone and look forward to completing it as part of my final project at Holberton School.
 
 The README's in both repositories were almost exclusively written myself.
 
@@ -365,8 +341,5 @@ $ python3 unittest -m tests/test_console.py
 ```
 
 ## Authors :black_nib:
-* **Brennan D Baraban** <[bdbaraban](https://github.com/bdbaraban)>
-* **Samie Azad** <[sazad44](https://github.com/sazad44)>
-* **Andrew Lindburg** <[atlindburg](https://github.com/atlindburg)>
-* **Kevin Yook** <[yook00627](https://github.com/yook00627)>
-* **Miranda Evans** <miranda.r.evans@gmail.com>
+* **Ammar Elbedweihy** <[ammartech](https://github.com/ammartech)>
+
